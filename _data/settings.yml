@@ -17,7 +17,7 @@ courses:
 social:
 - {icon: 'github', link: 'https://github.com/irikas'}
 - {icon: 'linkedin', link: 'https://linkedin.com/in/irikasinha'}
-- {icon: '{{ site.github.url }}/assets/orcid-icon.png', link: 'https://orcid.org/0000-0001-6440-7019'}
+- {icon: 'orcid-icon', link: 'https://orcid.org/0000-0001-6440-7019'}
 
 contacts:
 - {name: 'Dr. Irika R. Sinha', title: 'Postdoctoral Researcher', department: 'Neuroscience', institution: '', institution_address: '', phone: '', email: 'sinhairika [@] gmail [.] com', office: '', image: 'assets/img/contact.jpg'}
