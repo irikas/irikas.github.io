@@ -9,12 +9,18 @@
       </a>
     </div>
   
-    <div class="col-md-6 align-self-center text-end social-media-icons">
+    <!-- <div class="col-md-6 align-self-center text-end social-media-icons">
       {% for item in site.data.settings.social %}
         <a href="{{ item.link }}" class="ms-3 fs-5"><i class="fab fa-{{ item.icon }}"></i></a>
       {% endfor %}
-    </div>
+    </div> -->
   </div>
+
+  <nav class="col-md-6 align-self-center text-end social-media-icons">
+    {% for item in site.data.settings.social %}
+        <a href="{{ item.link }}" class="ms-3 fs-5"><i class="fab fa-{{ item.icon }}"></i></a>
+      {% endfor %}
+  </nav>
   
   
   <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
